@@ -2,6 +2,7 @@
 
 import { Button } from "@nextui-org/react";
 import Image from "next/image";
+import Typewriter from "typewriter-effect";
 
 export default function Home() {
   return (
@@ -20,7 +21,17 @@ export default function Home() {
             Hello I'm Nicole
           </span>
           <h1 className="lg:text-5xl text-3xl font-extrabold text-white">
-            Software Engineer
+            <Typewriter
+              options={{
+                strings: [
+                  "Software Engineer",
+                  "Web Developer",
+                  "Mobile Developer",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </h1>
         </div>
         <p className="text-sm text-slate-200">
