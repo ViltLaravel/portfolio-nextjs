@@ -11,7 +11,10 @@ export default function ExperienceCard({
   label?: string;
 }) {
   return (
-    <Card radius="none" className="bg-[#1F1E1F] p-6 w-48 md:w-64 h-28">
+    <Card
+      radius="none"
+      className="bg-[#1F1E1F] rounded-md shadow-lg p-6 w-full h-28"
+    >
       <div className="flex flex-col gap-2 items-center justify-center">
         <CountUp
           className="text-[#EE403E] text-2xl font-black"

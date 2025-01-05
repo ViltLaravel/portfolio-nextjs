@@ -23,10 +23,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} antialiased bg-[#1F1F1F]`}>
+      <body className={`${poppins.className} antialiased w-full bg-[#1F1F1F]`}>
         <MainProvider>
           <MainNavbar />
-          <div className="p-5">{children}</div>
+          <div className="p-5 w-full">{children}</div>
         </MainProvider>
       </body>
     </html>

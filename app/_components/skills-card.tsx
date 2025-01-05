@@ -22,7 +22,7 @@ export default function SkillsCard({
   return (
     <Card
       radius="none"
-      className={`p-8 w-full md:w-64 h-64 md:h-72 flex flex-col gap-3 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer ${
+      className={`md:p-8 p-4 w-full md:w-64 h-64 md:h-72 flex flex-col justify-center items-center rounded-md shadow-lg gap-3 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer ${
         hasClassName ? "bg-[#CA1A29] text-white" : "bg-[#1E1E1E]"
       }`}
     >
@@ -33,7 +33,7 @@ export default function SkillsCard({
       >
         {icon}
       </div>
-      <span className="text-white text-center text-xl font-medium">
+      <span className="text-white text-center text-base md:text-xl font-medium">
         {skillLabel}
       </span>
       <p className="text-xs text-center font-light text-white">

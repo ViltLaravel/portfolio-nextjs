@@ -38,7 +38,7 @@ export default function MainNavbar() {
   return (
     <Navbar
       onMenuOpenChange={() => dispatch(showMenuToogled(!state.showMenu))}
-      className="bg-[#1A1A1A]"
+      className="bg-[#1A1A1A] sticky top-0 w-full"
     >
       <NavbarContent>
         <NavbarMenuToggle
@@ -51,7 +51,7 @@ export default function MainNavbar() {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-5" justify="center">
+      <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
           <Link
             color="foreground"
@@ -87,7 +87,7 @@ export default function MainNavbar() {
             href="#"
             variant="flat"
             radius="none"
-            className="text-white bg-[#C31B27] w-32"
+            className="text-white bg-[#C31B27] w-28"
           >
             Contact
           </Button>
