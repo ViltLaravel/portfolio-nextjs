@@ -1,6 +1,7 @@
 import SkillsContainer from "./_sections/container";
 import Experience from "./_sections/experience";
 import Home from "./_sections/home";
+import Project from "./_sections/projects";
 import Skills from "./_sections/skills";
 
 export default function Page() {
@@ -11,6 +12,7 @@ export default function Page() {
         <Skills />
         <Experience />
       </SkillsContainer>
+      <Project />
     </div>
   );
 }
