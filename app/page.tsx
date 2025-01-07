@@ -1,3 +1,4 @@
+import Contact from "./_sections/contact";
 import SkillsContainer from "./_sections/container";
 import Experience from "./_sections/experience";
 import Home from "./_sections/home";
@@ -6,13 +7,14 @@ import Skills from "./_sections/skills";
 
 export default function Page() {
   return (
-    <div className="bg-[#1F1F1F] space-y-4">
+    <div className="bg-[#1F1F1F] space-y-8 px-4 md:px-14">
       <Home />
       <SkillsContainer>
         <Skills />
         <Experience />
       </SkillsContainer>
       <Project />
+      <Contact />
     </div>
   );
 }

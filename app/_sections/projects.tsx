@@ -6,11 +6,13 @@ import { LuArrowRight } from "react-icons/lu";
 
 export default function Project() {
   return (
-    <div className="space-y-4 md:space-y-6">
+    <div className="space-y-4 md:space-y-10">
       <div className="space-y-3 flex flex-col md:flex-row md:justify-between md:items-center md:gap-5">
-        <div className="text-white">
-          <h1 className="text-4xl font-extrabold">Featured Projects</h1>
-          <p className="text-xs font-normal">
+        <div className="text-white space-y-2">
+          <h1 className="text-4xl xl:text-6xl font-extrabold">
+            Featured Projects
+          </h1>
+          <p className="text-xs md:text-sm xl:text-base font-normal">
             A showcase of innovative mobile and web development projects with
             intuitive designs and impactful solutions.
           </p>
@@ -18,7 +20,7 @@ export default function Project() {
         <Button
           variant="faded"
           radius="none"
-          className="bg-[#BE1925] text-white border-0 uppercase text-sm font-medium w-28"
+          className="bg-[#BE1925] text-white text-center border-0 uppercase text-sm font-medium w-28"
         >
           View All
         </Button>
