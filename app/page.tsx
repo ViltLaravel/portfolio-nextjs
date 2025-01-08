@@ -1,6 +1,7 @@
 import Contact from "./_sections/contact";
 import SkillsContainer from "./_sections/container";
 import Experience from "./_sections/experience";
+import Footer from "./_sections/footer";
 import Home from "./_sections/home";
 import Project from "./_sections/projects";
 import Skills from "./_sections/skills";
@@ -15,6 +16,7 @@ export default function Page() {
       </SkillsContainer>
       <Project />
       <Contact />
+      <Footer />
     </div>
   );
 }
