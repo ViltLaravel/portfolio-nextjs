@@ -47,7 +47,7 @@ export default function MainNavbar() {
         />
         <NavbarBrand>
           <AcmeLogo />
-          <p className="font-bold text-[#C31B27]">NICOLE</p>
+          <p className="font-bold text-[#C31B27] text-lg">NICOLE</p>
         </NavbarBrand>
       </NavbarContent>
 
@@ -56,7 +56,7 @@ export default function MainNavbar() {
           <Link
             color="foreground"
             href="#"
-            className="text-white uppercase text-sm"
+            className="text-white uppercase text-sm md:text-base"
           >
             Home
           </Link>
@@ -65,7 +65,7 @@ export default function MainNavbar() {
           <Link
             aria-current="page"
             href="#"
-            className="text-white uppercase text-sm"
+            className="text-white uppercase text-sm md:text-base"
           >
             Projetcs
           </Link>
@@ -74,7 +74,7 @@ export default function MainNavbar() {
           <Link
             color="foreground"
             href="#"
-            className="text-white uppercase text-sm"
+            className="text-white uppercase text-sm md:text-base"
           >
             About
           </Link>
@@ -87,7 +87,7 @@ export default function MainNavbar() {
             href="#"
             variant="flat"
             radius="none"
-            className="text-white bg-[#C31B27] w-28"
+            className="text-white bg-[#C31B27] w-28 text-sm md:text-base"
           >
             Contact
           </Button>

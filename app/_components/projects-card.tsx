@@ -17,14 +17,14 @@ export default function ProjectCard({
       className="p-4 rounded-md space-y-2 shadow-lg w-full md:max-w-72 bg-[#191918] cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300"
       radius="none"
     >
-      <Image
-        alt="project-img"
-        src={src ?? "/projects/pro-1.jpg"}
-        layout="responsive"
-        width={100}
-        height={100}
-        className="rounded-md object-cover"
-      />
+      <div className="relative h-36 w-full">
+        <Image
+          alt="project-img"
+          src={src ?? "/projects/pro-1.jpg"}
+          fill={true}
+          className="rounded-md object-cover"
+        />
+      </div>
       <div className="flex flex-col gap-2">
         <span className="text-white text-xl font-bold">{projectName}</span>
         <Link
